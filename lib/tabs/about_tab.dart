@@ -31,7 +31,8 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Dart. Flutter. Gaming. Music.\nLikes Traveling.',
+                'Dart. Flutter. Gaming. Software Engineering Student.'
+                   '\nLikes Traveling.',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
@@ -59,7 +60,7 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.twitter)),
                     label: Text('Twitter'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_TWITTER, 'adityadroid'),
+                        .open(Constants.PROFILE_TWITTER, 'Awais'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -71,7 +72,7 @@ class AboutTab extends StatelessWidget {
                                 : Assets.medium_light)),
                     label: Text('Medium'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_MEDIUM, 'adityadroid'),
+                        .open(Constants.PROFILE_MEDIUM, 'Awais'),
                   )
                 ],
               ),
@@ -86,7 +87,7 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.instagram)),
                     label: Text('Instagram'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_INSTAGRAM, 'adityadroid'),
+                        .open(Constants.PROFILE_INSTAGRAM, 'Awais'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -95,7 +96,7 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.facebook)),
                     label: Text('Facebook'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_FACEBOOK, 'adityadroid'),
+                        .open(Constants.PROFILE_FACEBOOK, 'Awais'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -104,7 +105,7 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.linkedin)),
                     label: Text('Linkedin'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_LINKEDIN, 'adityadroid'),
+                        .open(Constants.PROFILE_LINKEDIN, 'Awais'),
                   )
                 ],
               )

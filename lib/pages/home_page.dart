@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:fluttera/config/assets.dart';
+import 'package:fluttera/models/project_model.dart';
 import 'package:fluttera/tabs/about_tab.dart';
+import 'package:fluttera/tabs/projects_tab.dart';
 import 'package:fluttera/widgets/theme_inherited_widget.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
   static List<Widget> tabWidgets = <Widget>[
     AboutTab(),
-
+    ProjectsTab(),
   ];
 
   @override
@@ -43,7 +45,7 @@ class _HomePageState extends State<HomePage> {
 
             BottomNavigationBarItem(
               icon: Icon(Icons.mobile_screen_share),
-              title: Text('Projects'),
+              title: Text('More'),
             )
           ],
           currentIndex: _selectedIndex,
